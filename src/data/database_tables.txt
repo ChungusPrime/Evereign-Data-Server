@@ -1,0 +1,15 @@
+CREATE DATABASE `evereign_auth`;
+
+CREATE TABLE `players` (
+  `id` varchar(100) NOT NULL,
+  `username` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `password` varchar(100) DEFAULT NULL,
+  `last_server` varchar(45) DEFAULT NULL,
+  `banned` varchar(45) DEFAULT NULL,
+  `created_date` varchar(100) DEFAULT NULL,
+  `last_login` varchar(45) DEFAULT NULL,
+  `email_confirmed` varchar(45) DEFAULT NULL,
+  `email_confirmed_date` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB;
